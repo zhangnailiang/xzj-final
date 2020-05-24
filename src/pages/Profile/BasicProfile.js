@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'dva';
-import { Card, Badge, Table, Divider } from 'antd';
+import { Card } from 'antd';
 import { Chart, Axis, Tooltip, Geom, Legend } from 'bizcharts';
 import DataSet from '@antv/data-set';
 import { isEmpty } from "lodash"
